@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Email subscription management
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge">Manage your subscriptions</h1>
+      <p>Viewing subscriptions for person.mcperson@gov.uk</p>
+      <ul class="subscriptions">
+        <li>
+          <h2 class="heading-medium"><a href="">School and academy funding</a><h2>
+          <h3 class="heading-small">Areas you will get updates from</h3>
+          <ul>
+            <li>Free school meals (FSM) funding</li>
+            <li>Funding for different types of schools and settings</li>
+            <li>Funding for school buildings and land</li>
+            <li>Funding for school places</li>
+            <li>Initial Teacher Training funding</li>
+            <li>Pupil premium and other school premiums</li>
+            <li>Schools forums</li>
+          </ul>
+          <p><a href="">Change</a></p>
+          <h3 class="heading-small">Notification frequency</h3>
+          <div class="panel panel-border-wide">
+            <p>
+              As soon as something changes. You will receive about 60 emails per day.
+            </p>
+          </div>
+          <p><a href="">Change</a></p>
+          <h3 class="heading-small">Unsuscribe</h3>
+          <p><a class="delete" href="">Unsuscribe from this topic</a></p>
+        </li>
+        <li>
+          <h2 class="heading-medium"><a href="">School curriculum</a><h2>
+          <h3 class="heading-small">Areas you will get updates from</h3>
+          <ul>
+            <li>Early years curriculum</li>
+            <li>Exam regulation and administration</li>
+          </ul>
+          <p><a href="">Change</a></p>
+          <h3 class="heading-small">Notification frequency</h3>
+          <p>1 daily email (if there are any updates)</p>
+          <p><a href="">Change</a></p>
+          <h3 class="heading-small">Unsuscribe</h3>
+          <p><a class="delete" href="">Unsuscribe from this topic</a></p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+
